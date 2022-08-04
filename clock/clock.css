@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+.clock_box {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(
+    135deg,
+    rgba(5, 4, 69) 10%,
+    rgba(7, 32, 133) 40%,
+    rgba(1, 164, 227) 100%
+  );
+  position: relative;
+  box-shadow: 10px 25px 40px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.clock_box .number {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+.clock_box .num1 {
+  transform: rotate(30deg);
+  padding-top: 30px;
+  width: 3px;
+  height: 30px;
+  background-color: white;
+  top: 50px;
+  right: 115px;
+}
+.clock_box .num2 {
+  transform: rotate(60deg);
+  padding-top: 30px;
+}
+.clock_box .num3 {
+  transform: rotate(90deg);
+  padding-top: 30px;
+}
+.clock_box .num4 {
+  transform: rotate(120deg);
+  padding-top: 30px;
+}
+.clock_box .num5 {
+  transform: rotate(150deg);
+  padding-top: 30px;
+}
+.clock_box .num6 {
+  transform: rotate(180deg);
+  padding-top: 30px;
+}
+.clock_box .num7 {
+  transform: rotate(210deg);
+  padding-top: 30px;
+}
+.clock_box .num8 {
+  transform: rotate(240deg);
+  padding-top: 30px;
+}
+.clock_box .num9 {
+  transform: rotate(270deg);
+  padding-top: 30px;
+}
+.clock_box .num10 {
+  transform: rotate(300deg);
+  padding-top: 30px;
+}
+.clock_box .num11 {
+  transform: rotate(330deg);
+  padding-top: 30px;
+}
+.clock_box .num12 {
+  transform: rotate(360deg);
+  padding-top: 30px;
+}
+.clock_box .hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 5px;
+  height: 25%;
+  background-color: white;
+}
+ .center_dot {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 218px;
+  left: 215px;
+}
+
+.hand {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.hand div {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+
+.second {
+  width: 2px;
+  height: 32%;
+}
+.minute {
+  height: 28%;
+  width: 5px;
+}
+.hour {
+  height: 21%;
+  width: 10px;
+}
